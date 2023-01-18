@@ -1,0 +1,18 @@
+.demo-wrapper {
+  width: 250px;
+  margin: 20px auto;
+}
+
+.demo__block {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.demo__link {
+  background: #3fb33f;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+}

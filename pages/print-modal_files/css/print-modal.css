@@ -1,0 +1,19 @@
+#dialog_print {
+  text-align: initial;
+  padding-bottom: 28px;
+}
+
+.d_button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hr1 {
+  width: 100%;
+}
+
+.form-print__wrapper {
+  overflow-y: auto;
+  max-height: 360px;
+  padding: 0 20px;
+}

@@ -1,0 +1,9 @@
+.ui-sortable-handle {
+  white-space: nowrap;
+}
+
+
+.cb_field_file-type {
+  color: rgba(128, 128, 128, 0.829);
+  margin-left: 6px;
+}
