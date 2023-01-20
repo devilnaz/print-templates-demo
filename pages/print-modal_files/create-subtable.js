@@ -766,7 +766,7 @@
                                                         </span>`;
                                                             if (l_field.help) {
                                                                 oneFieldElement += `<div style='position: relative;'>
-                                                        <img src='images/help.gif' class='question' onclick='sviewHelp(${l_field.id})' onmouseover='v_init = setTimeout(sviewHelp(${l_field.id}), 500)' onmouseout='shideHelpInit(${l_field.id})'>
+                                                        <img src='../../common/img/help.gif' class='question' onclick='sviewHelp(${l_field.id})' onmouseover='v_init = setTimeout(sviewHelp(${l_field.id}), 500)' onmouseout='shideHelpInit(${l_field.id})'>
                                                         <div class='field_tooltip' id='sf_tooltip${l_field.id}' onmouseover='sviewHelp(${l_field.id})' onmouseout='shideHelpInit(${l_field.id})'></div>
                                                         </div>`;
                                                             }
@@ -950,7 +950,7 @@
                                                 </span>`;
                                                     if (l_field.help) {
                                                         oneFieldElement += `<div style='position: relative;'>
-                                                        <img src='images/help.gif' class='question' onclick='sviewHelp(${l_field.id})' onmouseover='v_init = setTimeout(sviewHelp(${l_field.id}), 500)' onmouseout='shideHelpInit(${l_field.id})'>
+                                                        <img src='../../common/img/help.gif' class='question' onclick='sviewHelp(${l_field.id})' onmouseover='v_init = setTimeout(sviewHelp(${l_field.id}), 500)' onmouseout='shideHelpInit(${l_field.id})'>
                                                         <div class='field_tooltip' id='sf_tooltip${l_field.id}' onmouseover='sviewHelp(${l_field.id})' onmouseout='shideHelpInit(${l_field.id})'></div>
                                                         </div>`;
                                                     }
@@ -1245,7 +1245,7 @@
                                                 </span>`;
                                     if (l_field.help) {
                                         oneFieldElement += `<div style='position: relative;'>
-                                                        <img src='images/help.gif' class='question' onclick='sviewHelp(${l_field.id})' onmouseover='v_init = setTimeout(sviewHelp(${l_field.id}), 500)' onmouseout='shideHelpInit(${l_field.id})'>
+                                                        <img src='../../common/img/help.gif' class='question' onclick='sviewHelp(${l_field.id})' onmouseover='v_init = setTimeout(sviewHelp(${l_field.id}), 500)' onmouseout='shideHelpInit(${l_field.id})'>
                                                         <div class='field_tooltip' id='sf_tooltip${l_field.id}' onmouseover='sviewHelp(${l_field.id})' onmouseout='shideHelpInit(${l_field.id})'></div>
                                                         </div>`;
                                     }

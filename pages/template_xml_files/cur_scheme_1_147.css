@@ -1,0 +1,368 @@
+.table_title_head {
+    color:#393e46;
+}
+
+.lds-ellipsis div:nth-child(1) div,
+.lds-ellipsis div:nth-child(2) div,
+.lds-ellipsis div:nth-child(3) div,
+.lds-ellipsis div:nth-child(4) div,
+.lds-ellipsis div:nth-child(5) div,
+#nprogress .bar,
+.header__tips,
+#fixed-button, #message_window_menu_items--counter {
+background: #f1c232 !important;
+}
+.switch-on {
+    background: #00acb5 !important;
+}
+.switch-on::after {
+    background: #00acb5 !important;
+}
+
+.subtable__title-cell {
+    color:#393e46;
+}
+
+.progress-bar {
+    background-color: #393e46;
+}
+
+.fields__cell--header:first-child,
+.fields__cell--header:nth-child(2){
+    background-color:#393e46;
+}
+
+.fixed-panel__item {
+    background-color: #393e46;
+}
+
+    #f_row {
+    background: #393e46;
+            background: url(../images/backgroundImages/Creation.png), linear-gradient(to right, #393e46 0%, #00acb5 100%);
+        }
+
+#f_row > th {
+background: none;
+}
+
+.head {
+/*background-color:#393e46;
+z-index: -1000;*/
+}
+
+.otstup3 a:hover {
+color: #393e46;
+}
+
+.otstup3 a:hover span {
+color: #393e46;
+}
+
+
+.headline a:hover {
+color: #393e46;
+}
+
+.header__category-dropdown-wrap:hover .header__category-item--more {
+    background-color: #eeeeee;
+}
+
+.header__category-item a.plus {
+    background-color: #393e46;
+}
+
+.header__category-item a.plus:hover, .header__category-item a.plus:focus {
+    background-color: #393e46;
+}
+
+.header__filter-link:hover {
+    background-color: #393e46;
+}
+
+.header__submenu {
+    background-color: #eeeeee;
+}
+
+.header__submenu-item a {
+color: #393e46;
+}
+#bizproc_done {
+color: #393e46;
+}
+#bizproc_done img {
+background-color: #393e46;
+}
+.header__category-item,
+.header__categories .flexMenu-viewMore>a {
+    background: rgba(0, 172, 181, 0.5);
+}
+
+.header__categories-dropdownmenu li:hover,
+.header__categories-dropdownmenu li:focus,
+.header__categories-dropdownmenu li:active,
+{
+    background: #eeeeee;
+}
+
+.header__category-item:hover, .header__category-item:focus {
+    background-color: #eeeeee;
+    color: #000;
+}
+
+.header__categories a.more-active {
+    background: #eeeeee;
+}
+
+.header__submenu-dropdownmenu>li {
+    color: #393e46;
+}
+
+.header__submenu .flexMenu-viewMore>a {
+    color: #393e46;
+}
+
+.header__filter-link,
+.header__filter .flexMenu-viewMore>a {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 3px 8px 4px 8px;
+    margin-top: 3px;
+}
+
+/*закругление элементов*/
+    .header__category-item,
+    .flexMenu-viewMore>a {
+        border-radius: 7px 7px 0 0;
+    }
+
+    .fields__table img:not(.question),
+    .user-data__row img:not(.question),
+    .subtable__cell img:not(.question),
+    .subtable__cell autocomplete_val>img:not(.question), {
+        border-radius: 7px;
+    }
+
+    .header__categories-dropdownmenu li:first-of-type, .header__filter-dropdownmenu li:first-of-type, .header__submenu-dropdownmenu li:first-of-type {
+        border-radius: 7px 0 0 0;
+    }
+
+    .header__categories-dropdownmenu li:first-of-type a, .header__submenu-dropdownmenu li:first-of-type a, .header__filter-dropdownmenu li:first-of-type a {
+        border-radius: 6px 0 0 0;
+    }
+
+    .header__categories-dropdownmenu li:last-of-type, .header__submenu-dropdownmenu li:last-of-type, .header__filter-dropdownmenu li:last-of-type {
+        border-radius: 0 0 7px 7px;
+    }
+
+    .header__categories-dropdownmenu li:last-of-type a, .header__submenu-dropdownmenu li:last-of-type a, .header__filter-dropdownmenu li:last-of-type a {
+        border-radius: 0 0 6px 6px;
+    }
+
+    .header__categories-dropdownmenu, .header__submenu-dropdownmenu, .header__filter-dropdownmenu {
+    border-radius: 7px 0 7px 7px;
+    }
+
+    .header__category-item a:hover, .header__category-item a:focus, .header__category-item button:hover, .header__category-item button:focus {
+    border-radius: 7px 7px 0 0;
+    }
+
+    .header__submenu-item a:hover, .header__submenu-item--active a {
+    border-radius: 7px 7px 0 0;
+    }
+
+    .header__filter-link,
+    .header__filter .flexMenu-viewMore>a {
+        border-radius: 7px;
+    }
+
+    #legend_full {
+    margin: 20px 0 40px;
+    background-color: #fff;
+    border: 1px solid #E1DFDF;
+    border-radius: 7px;
+    padding: 5px 0 10px;
+    }
+
+    div.display_notification {
+    border-radius: 7px;
+    }
+
+    .notifySearch {
+    border-radius: 7px;
+    }
+
+    .one_item_add {
+    border-radius: 7px;
+    }
+
+    .colred.but a {
+    border-radius: 7px;
+    }
+
+    a.but2_ul_btn {
+    border-radius: 7px;
+    }
+
+    .but2_li_first_btn {
+    border-radius: 7px 7px 0 0;
+    }
+
+    .but2_li_last_btn {
+    border-radius: 0 0 7px 7px;
+    }
+
+    .subtabmenu_active{
+    border-radius: 7px 7px 0 0;
+    }
+
+    .inner {
+    border-radius: 7px;
+    }
+
+    .note_group {
+    border-radius: 7px;
+    }
+
+    .header__category-item--active,
+    .header__categories .more-active {
+        background-color: #eeeeee;
+        border-radius: 7px 7px 0 0;
+        box-shadow: 0 1px 0 0 #eeeeee;
+    }
+
+    *}
+
+/*самый светлый цвет*/
+
+.top_line {
+background-color:#eeeeee;
+}
+
+.top_line1 {
+background-color:#eeeeee;
+}
+
+.back_tr .fields__cell,
+.back_tr .fields__cell--checkbox div,
+.back_tr .fields__cell > .fields__cell-inner,
+.back_tr .fields__cell > .fields__cell-inner div.fields__select-formatter {
+background-color: #eeeeee !important;
+}
+
+.back_tr .fields__cell,
+.back_tr .fields__cell a {
+  color: #000000 !important;
+}
+
+.back_tr .fields__cell .fields__text-prefix,
+.back_tr .fields__cell .fields__text-postfix {
+  color: #6A6A6A !important;
+}
+
+.header__category-item a.plus {
+color: #eeeeee;
+font-weight: bold;
+}
+
+.header__category-item--add a {
+    color: #eeeeee
+}
+
+#submenu {
+background-color: #eeeeee;
+}
+
+.header__submenu-item--add a:hover {
+    background-color: #eeeeee !important;
+}
+
+.header__submenu-item--add a {
+    color: #393e46;
+}
+
+.filter {
+color: #eeeeee;
+}
+
+            .head_bgr {
+            background: url(../images/backgroundImages/Creation.png), linear-gradient(to right, #393e46 0%, #00acb5 50%, #393e46 100%);
+            z-index: 5000;
+            }
+    
+    .drop_down_icon_search {
+    margin-top: -3px;
+    }
+    .drop_down_icon_search_hover {
+    margin-top: -3px;
+    }
+    .drop_down_icon__searchdisabled {
+    margin-top: -3px;
+    }
+body {
+font-family: Ubuntu;
+}
+li, td, a, form, p {
+font-family: Ubuntu;
+}
+textarea, input, select {
+font-family: Ubuntu;
+}
+.filter {
+font-family: Ubuntu;
+}
+.button {
+font-family: Ubuntu;
+}
+.datepicker {
+font-family: Ubuntu;
+}
+.datepicker_span {
+font-family: Ubuntu;
+}
+.datepicker_span input {
+font-family: Ubuntu;
+}
+.select_border_btn {
+font-family: Ubuntu;
+}
+.cust_select {
+font-family: Ubuntu;
+}
+.rights_group_headr {
+font-family: Ubuntu;
+}
+#demo_create_acc_btn_inp {
+font-family: Ubuntu;
+}
+div.display_notification {
+font-family: Ubuntu;
+}
+.d_button {
+font-family: Ubuntu;
+}
+.al_button {
+font-family: Ubuntu;
+}
+div#tips_window_controls td {
+font-family: Ubuntu;
+}
+input.superpuper {
+font-family: Ubuntu;
+}
+#wiz a {
+font-family: Ubuntu;
+}
+div#message_window_drafting textarea {
+font-family: Ubuntu;
+}
+
+.subscribe_search_tr:hover {
+    background-color: #eeeeee !important;
+}
+
+.livechat_subscribe_search_res thead {
+    background-color: #393e46 !important;
+    color: white !important;
+}

@@ -7377,7 +7377,7 @@ span.mult_link_count {
 }
 
 .ui-dialog-titlebar-close {
-    background-image: url("../../../images/cancel_a.gif") !important;
+    background-image: url("./cancel_a.gif") !important;
     background-repeat: no-repeat;
     background-position: 3px 4px;
     border: none;

@@ -1,0 +1,116 @@
+
+#dialog_print {
+  text-align: initial;
+  padding-bottom: 28px;
+}
+
+.d_button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hr1 {
+  width: 100%;
+}
+
+.form-print__wrapper {
+  overflow-y: auto;
+  max-height: 360px;
+  padding: 0 20px;
+}
+
+/* стили для модального окна / print-modal.html */
+.form-print__btn {
+  position: relative;
+  padding-right: 34px;
+}
+
+.form-print__btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 6px;
+  height: 20px;
+}
+
+.form-print__btn_printer::after {
+  background: url('../img/icon_printer.svg') no-repeat;
+  background-size: contain;
+  width: 18px;
+}
+
+.form-print__btn_download::after {
+  background: url('../img/icon_download.svg') no-repeat;
+  background-size: contain;
+  background-position: center right -1px;
+  width: 22px;
+  height: 21px;
+}
+
+
+
+
+/* кнопка добавить */
+
+td > .upload-file {
+  margin-top: 5px;
+}
+.file_input__a {
+  background: linear-gradient(to top, #efefef 30%, white 70%);
+  border: 1px solid #b9b9b9;
+  justify-content: center;
+  width: 100px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none !important;
+  font-size: 12px;
+  color: black !important;
+}
+.file_input__a::before {
+  content: "";
+  position: relative;
+  top: 1px;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  display: inline-block;
+  background-image: /*savepage-url=./themes/clientbase/img/icons-sprite.png*/ var(--savepage-url-67);
+  background-position: -83px -21px;
+}
+
+/* поле переменных с кнопкой скопировать */
+.form-print-variable__block {
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-print-variable__block:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.form-print-variable__value {
+  /* vertical-align: text-bottom; */
+}
+
+.form-print-variable__btn {
+  font-size: 13px;
+  cursor: pointer;
+  color: #777;
+  border-radius: 4px;
+  background-color: #d7d7d7;
+  padding: 5px 5px;
+  margin-left: 5px;
+}
+
+.form-print-variable__img {
+  height: 15px;
+  max-width: 100%;
+  display: block;
+}
+
+

@@ -763,7 +763,7 @@ span.datepicker_span input.fast_edit_bordered {
     right: 10px;
     width: 19px;
     height: 19px;
-    background: url(images/bullet.png) no-repeat top left;
+    background: url(../../src/img/bullet.png) no-repeat top left;
     cursor: pointer;
 }
 
@@ -1039,7 +1039,7 @@ a.s_temp_link:hover {
     height: 14px;
     display: inline-block;
     vertical-align: middle;
-    background: url(images/help.gif) no-repeat;
+    background: url(../../common/img/help.gif) no-repeat;
     margin: -1px 2px 0px 4px;
 }
 
@@ -2887,7 +2887,7 @@ a.display_notification_button {
     right: 10px;
     width: 19px;
     height: 19px;
-    background: url(images/bullet.png) no-repeat top left;
+    background: url(../../src/img/bullet.png) no-repeat top left;
     display: block;
     cursor: pointer;
 }

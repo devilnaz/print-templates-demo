@@ -1,0 +1,298 @@
+.header__user-block {
+    position: relative;
+}
+
+.call-content {
+    position: absolute;
+    padding: 15px 15px;
+    top: 30px;
+    right: 0;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    z-index: 9991;
+}
+
+.call_block-tel{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #e5e8ed;
+    border-radius: 8px;
+    padding: 2px 0 2px 15px;
+}
+
+.call_block-tel > img,
+.call_block-forward > button > img {
+    width: 15px;
+    height: 15px;
+}
+
+.call_block-tel > input,
+.call_block-tel > input[disabled] {
+    border: 0px;
+    margin-left: 15px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: white;
+}
+
+.call_block-tel > input:focus {
+    outline: none;
+}
+
+.call_block--btn {
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+}
+
+.call_block-buttons_block {
+    display: flex;
+    flex-grow: 1;
+    background: #E63756;
+    border: 2px solid #E63756;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.call_block--btn {
+    padding: 5px 0 5px 0;
+}
+
+.call_block--btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    text-decoration: none;
+    color: #E63756;
+}
+
+.call_block--btn:focus {
+    outline: none;
+}
+
+.call_block--btn-call {
+    width: 70%;
+}
+
+.call_block--btn-answer,
+.call_block--btn-reject,
+.call_block--btn-redirect {
+    width: 35%;
+}
+
+.call_block--btn-cost,
+.call_block--btn-numpad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 20px;
+}
+
+.call_block--btn-cost img,
+.call_block--btn-numpad img {
+    filter: invert(1);
+}
+
+.call_block-forward {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+.call_block-forward > select {
+    width: 85%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1.5px solid #e5e8ed;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.call_block-forward > button {
+    display: flex;
+    width: 15%;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    background: #E63756;
+    border: 2px solid #E63756;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.call_block-forward > button:hover {
+    background: white;
+}
+
+.call_block-forward > button > img {
+    filter: invert(1);
+}
+
+.call_block-forward > button:hover > img {
+    filter: none;
+}
+
+.call-content--provider {
+    width: 130px;
+    border: 1.5px solid #e5e8ed;
+    border-radius: 8px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #636363;
+}
+
+#call-notification {
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    z-index: 9999;
+}
+
+.call_notification--container{
+    position: relative;
+    opacity: 0.9;
+    background: #000;
+    border-radius: 10px;
+    margin: 7px 0px;
+    min-width: 300px;
+    padding-bottom: 7px;
+}
+
+.call_notification--header {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 15px 0px;
+    color: #444;
+}
+
+.call_notification--header-bell {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url('../../../../../images/top_icon_tips.png');
+}
+
+.call_notification--header-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    background: url('../../../../../images/tip_window_item_close.png');
+}
+
+.numberBlock {
+    padding: 5px;
+}
+
+.numberBlockElement {
+    display:flex;
+    margin-top: 10px;
+}
+
+.numberBlockElement div {
+    width: 50px;
+    height: 50px;
+    background: #d2cecec0;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    cursor: pointer;
+    text-shadow: 1px 1px 0 #fff;
+    font-size: 25px;
+    margin: auto;
+    box-shadow: 0 0 17px rgba(0,0,0,0.2);
+    user-select: none;
+}
+
+.numberBlockElement div:hover {
+    background: #c7c7c7;
+}
+
+.showNumberBlock {
+    background:#cfcfcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53px;
+    height: 55px;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+}
+
+.numberInputBlock{
+    display: flex;
+    background: #cfcfcf;
+    padding: 2px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.numberInputBlock input{
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: none;
+}
+
+.numberInputBlock input:focus{
+    outline:none;
+}
+
+.showNumberBlock:hover {
+    background: #999;
+}
+
+.clear {
+    background-color: white !important;
+    box-shadow: none !important;
+    cursor: initial !important;
+}
+
+.tip_recall_button {
+    color: #909090;
+    cursor: pointer;
+}
+
+.tip_recall_button:hover {
+    text-decoration: underline;
+}
+
+.event_bubble .tip_call_create {
+    color: #8282fb;
+}
+
+.event_bubble .tip_call_create:hover {
+    text-decoration: underline;
+}
+
+.control_buttons--style {
+    border: 1px solid white;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.control_buttons--style:hover {
+    background: white;
+    color: black;
+}

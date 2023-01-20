@@ -7153,7 +7153,7 @@ to {
 </style>
 
 <!-- добавленный css -->
-<link href="./print-modal_files/css/print-modal.css" rel="stylesheet">
+<link href="../src/css/style.css" rel="stylesheet">
 
 
 
@@ -10173,8 +10173,8 @@ customElements.define('wazzup-user-profile', element);
         <p style="font-size:16px; font-weight:normal; color:#999; margin-top:3px; padding-left:8px;"> Выберите шаблон для печати</p>
       </td>
         <td>
-        <a style="text-decoration:none;" target="_blank" href="http://cb.loc/forms.php?table=43&mode=print&admin">
-        <img alt="" src="./print-modal_files/settings_a.gif" name="d_parprint" border="0" onmouseover="this.src='print-modal_files/settings_b.gif';" onmouseout="this.src='print-modal_files/settings_a.gif';" style="margin-left:10px; margin-top:-7px;">
+        <a style="text-decoration:none;" target="_blank" href="./settings-list.html">
+        <img alt="" src="./print-modal_files/settings_a.gif" name="d_parprint" border="0" style="margin-left:10px; margin-top:-7px;">
       </a>
       </td>
       </tr>
@@ -10187,40 +10187,28 @@ customElements.define('wazzup-user-profile', element);
                   <div id="form_print_wrapper" style="min-height: 55px;">
                     <div class="form-print__wrapper">
                       <p class="print_btn" id="d_button_print_1" style="">
-                          <button class="d_button" onclick="dial_form('print',60,6,'');">Счет со скидками (Excel)</button>
+                          <button class="form-print__btn form-print__btn_download d_button" onclick="dial_form('print',60,6,'');">Счет со скидками (Excel)</button>
                       </p>
                       <p class="print_btn" id="d_button_print_2" style="">
-                          <button class="d_button" onclick="dial_form('print',61,6,'');">Счет без скидок (Excel)</button>
+                          <button class="form-print__btn  form-print__btn_printer d_button" onclick="dial_form('print',61,6,'');">Счет с подписью и печатью без скидки</button>
                       </p>
                       <p class="print_btn" id="d_button_print_3" style="">
-                          <button class="d_button" onclick="dial_form('print',11,2,'');">Квитанция</button>
+                          <button class="form-print__btn  form-print__btn_download d_button" onclick="dial_form('print',11,2,'');">Тестовый с docx</button>
                       </p>
                       <p class="print_btn" id="d_button_print_4" style="">
-                          <button class="d_button" onclick="dial_form('print',160,2,'');">Счет со скидками (pdf)</button>
+                          <button class="form-print__btn  form-print__btn_download d_button" onclick="dial_form('print',160,2,'');">Тестовый 2 с XML</button>
                       </p>
                       <p class="print_btn" id="d_button_print_5" style="">
-                          <button class="d_button" onclick="dial_form('print',150,2,'');">Счет без скидок (pdf)</button>
+                          <button class="form-print__btn  form-print__btn_printer d_button" onclick="dial_form('print',150,2,'');">Тестовый 3 составной</button>
                       </p>
                       <p class="print_btn" id="d_button_print_6" style="">
-                          <button class="d_button" onclick="dial_form('print',170,2,'');">Счет с подписью и печатью со скидкой</button>
+                          <button class="form-print__btn  form-print__btn_download d_button" onclick="dial_form('print',170,2,'');">Тестовый 4 с odt</button>
                       </p>
                       <p class="print_btn" id="d_button_print_7" style="">
-                          <button class="d_button" onclick="dial_form('print',180,2,'');">Счет с подписью и печатью без скидки</button>
+                          <button class="form-print__btn  form-print__btn_download d_button" onclick="dial_form('print',180,2,'');">Тестовый 5 с rtf доманстрация с длинным текстом в...</button>
                       </p>
                       <p class="print_btn" id="d_button_print_8" style="">
-                        <button class="d_button" onclick="dial_form('print',410,6,'');">Тестовый</button>
-                      </p>
-                      <p class="print_btn" id="d_button_print_8" style="">
-                        <button class="d_button" onclick="dial_form('print',410,6,'');">Тестовый1</button>
-                      </p>
-                      <p class="print_btn" id="d_button_print_8" style="">
-                        <button class="d_button" onclick="dial_form('print',410,6,'');">Тестовый2</button>
-                      </p>
-                      <p class="print_btn" id="d_button_print_8" style="">
-                        <button class="d_button" onclick="dial_form('print',410,6,'');">Тестовый3</button>
-                      </p>
-                      <p class="print_btn" id="d_button_print_8" style="">
-                        <button class="d_button" onclick="dial_form('print',410,6,'');">Тестовый4</button>
+                        <button class="form-print__btn  form-print__btn_download d_button" onclick="dial_form('print',410,6,'');">Тестовый 6 с xlsx</button>
                       </p>
                     </div>
                   </div>
